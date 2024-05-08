@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 0.5fr repeat(10, 1fr) 0.5fr repeat(5, 1fr);
+    grid-gap: 10px;
+}
+
+.element {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.element:hover {
+    cursor: pointer;
+    background-color: #bd0e0e5e;
+    color: #fff;
+}
+
+
